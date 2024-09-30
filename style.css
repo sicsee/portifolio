@@ -65,7 +65,7 @@ header {
 .circulo {
   width: 380px;
   height: 380px;
-  border: 15px solid #FF003D;
+  border: 10px solid #FF003D;
   border-radius: 50%;
   box-shadow: 0px 0px 35px #FF003D;
 }
@@ -140,4 +140,71 @@ header {
 #social i:hover {
   color: white;
   cursor: pointer;
+}
+
+@media screen and (max-width: 630px){
+  #content {
+    width: 100%;
+    margin: 25px 3px;
+  }
+
+  header {
+    margin: 25px 3px;
+    max-width: 100%;
+  }
+
+  #nav-logo h1{
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  #nav-nome {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  #meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circulo {
+    width: 340px;
+    height: 340px;
+    border: 5px solid #FF003D;
+  }
+  
+  #meio img {
+    width: 416px;
+    height: 460px;
+  }
+
+  .blur{
+    border-top: 50px solid #262626;
+    width: 360px;
+    margin-top: 90px;
+    position: relative;
+    left: 60px;
+    filter: blur(15px);
+  }
+  #list {
+    display: none;
+  }
+
+  #bottom {
+    margin-top: 45px;
+  }
+
+  #made {
+    font-weight: 500;
+  }
+
+  #made .text-2 {
+    font-weight: 700;
+  }
+
+  #social i{
+    font-size: 40px;
+  }
 }
